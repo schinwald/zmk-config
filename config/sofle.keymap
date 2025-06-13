@@ -43,7 +43,7 @@
 &kp TAB    &kp Q   &kp W   &kp E             &kp R         &kp T                                      &kp Y              &kp U          &kp I              &kp O    &kp P     &kp LEFT_BRACKET
 &kp CAPS   &kp A   &kp S   &kp D             &kp F         &kp G                                      &kp H              &kp J          &kp K              &kp L    &kp SEMI  &kp ENTER
 &kp LSHFT  &kp Z   &kp X   &kp C             &kp V         &kp B             &kp C_MUTE    &none      &kp N              &kp M          &kp COMMA          &kp DOT  &kp FSLH  &kp RSHFT
-                   &mo 1   &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE     &kp SPACE  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &none
+                   &mo 1   &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE     &kp SPACE  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &mo 1
             >;
 
             sensor-bindings =
@@ -59,7 +59,7 @@
             // |        |         |         |         |         |         | RGB_TOG | |      |      |      |       |      |       |       |
             //                    |         |         |         |         |         | |      |      |      |       |      |
 
-            display-name = "adjust";
+            display-name = "bluetooth";
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &none  &none  &none  &none  &none  &none
 &none       &none         &none         &none         &none         &none                         &none  &none  &none  &none  &none  &none
